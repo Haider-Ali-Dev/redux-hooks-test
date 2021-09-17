@@ -23,11 +23,17 @@ const Urban = (props) => {
                 <h3>Word</h3>
                 {meaning[0] ? <p className="center"> {meaning[meaning.length - 1].list[0].word}</p> : "None"}
                 <h3>Meaning</h3>
-                {meaning[0] ? <p>{meaning[meaning.length - 1].list[0].thumbs_up}  </p> : 
+                {meaning[0] ? <p>{meaning[meaning.length - 1].list[0].definition} | 👍 
+                {meaning[meaning.length - 1].list[0].thumbs_up} | 👎 
+                {meaning[meaning.length - 1].list[0].thumbs_down}</p> : 
                 <p>None</p>}
-                {meaning[0] ? <p>{meaning[meaning.length - 1].list[1].definition}  </p> :
+                {meaning[0] ? <p>{meaning[meaning.length - 1].list[1].definition} | 👍 
+                {meaning[meaning.length - 1].list[1].thumbs_up} | 👎 
+                {meaning[meaning.length - 1].list[1].thumbs_down}</p> :
                  <p>None</p>}
-                {meaning[0] ? <p>{meaning[meaning.length - 1].list[2].definition}</p> : 
+                {meaning[0] ? <p>{meaning[meaning.length - 1].list[2].definition} | 👍 
+                {meaning[meaning.length - 1].list[2].thumbs_up} | 👎 
+                {meaning[meaning.length - 1].list[2].thumbs_down}</p> : 
                 <p>None</p>}
             </div>
             <button onClick={getMyMeaning}>Submit</button>
