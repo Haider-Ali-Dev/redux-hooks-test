@@ -1,8 +1,8 @@
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
-
+import { configureStore } from "@reduxjs/toolkit";
+import inputSliceReducer from "../features/Input/inputSlice";
+import robotSliceReducer from '../features/Robots/robotsSlice'
+import chuckSliceReducer from '../features/ChuckNorris/ChuckNorris'
 export const store = configureStore({
-  reducer: {
-    counter: counterReducer,
-  },
-});
+  reducer: {input: inputSliceReducer, robots: robotSliceReducer, joke: chuckSliceReducer}
+
+})
