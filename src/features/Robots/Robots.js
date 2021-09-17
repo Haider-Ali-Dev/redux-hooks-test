@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchRobots } from './robotsSlice';
 import { unwrapResult } from '@reduxjs/toolkit'
@@ -30,10 +30,10 @@ const Robots = () => {
     }, [])
 
         return (
-            <div>
-                <button onClick={onClickGetRobot}>Click Me</button>
-                {robots[0] ? <img src={robots[random.randint(robots.length)].file} alt={'cat'}></img> : undefined}
-            </div>
+                    <div className="image">
+                    {robots[0] ? <img src={random.choice(robots).file} alt={'cat'}></img> : <h1>Loading</h1>}
+                    <button onClick={onClickGetRobot}>Generate</button>
+                    </div>
         )
 }
 

@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+.joke-container {
+    display: flex;
+    background-color: lightgreen;
+    border: lightgreen;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
