@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wondersofweb/static/css/main.0f48312f.chunk.css",
-    "main.js": "/wondersofweb/static/js/main.b157bd39.chunk.js",
-    "main.js.map": "/wondersofweb/static/js/main.b157bd39.chunk.js.map",
+    "main.js": "/wondersofweb/static/js/main.f0c7c349.chunk.js",
+    "main.js.map": "/wondersofweb/static/js/main.f0c7c349.chunk.js.map",
     "runtime-main.js": "/wondersofweb/static/js/runtime-main.94f1d607.js",
     "runtime-main.js.map": "/wondersofweb/static/js/runtime-main.94f1d607.js.map",
     "static/js/2.2be5c437.chunk.js": "/wondersofweb/static/js/2.2be5c437.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.94f1d607.js",
     "static/js/2.2be5c437.chunk.js",
     "static/css/main.0f48312f.chunk.css",
-    "static/js/main.b157bd39.chunk.js"
+    "static/js/main.f0c7c349.chunk.js"
   ]
 }
